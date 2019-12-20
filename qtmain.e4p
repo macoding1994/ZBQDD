@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project qtmain -->
-<!-- Saved: 2019-12-20, 10:16:27 -->
+<!-- Saved: 2019-12-20, 16:24:11 -->
 <!-- Copyright (C) 2019 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
@@ -13,8 +13,16 @@
   <Email></Email>
   <Eol index="0"/>
   <Sources>
+    <Source>Ui_main.py</Source>
+    <Source>Ui_showDialog.py</Source>
     <Source>__init__.py</Source>
+    <Source>main.py</Source>
+    <Source>showDialog.py</Source>
   </Sources>
+  <Forms>
+    <Form>main.ui</Form>
+    <Form>showDialog.ui</Form>
+  </Forms>
   <Others>
     <Other>qtmain.e4p</Other>
   </Others>

@@ -85,7 +85,7 @@ class MplCanvas(FigureCanvas):
         if self.curveObj:
             self.ax.lines.remove(self.curveObj)
 
-        self.curveObj, = self.ax.plot(datax, datay, '-', linewidth=1)
+        self.curveObj, = self.ax.plot(datax, datay, '.-', linewidth=1)
         self.ax.legend(loc="upper left")
         self.draw()
 
